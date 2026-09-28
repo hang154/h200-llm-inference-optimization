@@ -1,0 +1,20 @@
+[
+  {
+    "label": "baseline_bf16",
+    "kv_cache_tokens": 703248,
+    "context_tokens": 40000,
+    "maximum_concurrency": 17.58
+  },
+  {
+    "label": "fp8_weights_bf16_kv",
+    "kv_cache_tokens": 758304,
+    "context_tokens": 40000,
+    "maximum_concurrency": 18.96
+  },
+  {
+    "label": "fp8_weights_fp8_kv",
+    "kv_cache_tokens": 1516624,
+    "context_tokens": 40000,
+    "maximum_concurrency": 37.92
+  }
+]

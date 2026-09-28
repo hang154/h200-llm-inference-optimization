@@ -1,0 +1,12 @@
+2026-09-29T02:54:49+09:00
+Linux main1 6.8.0-100-generic #100-Ubuntu SMP PREEMPT_DYNAMIC Tue Jan 13 16:40:06 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+2, NVIDIA H200, 580.126.20, 143771 MiB
+3, NVIDIA H200, 580.126.20, 143771 MiB
+torch==2.13.0
+vllm==0.30.0
+speculators=not-installed
+transformers==5.17.0
+datasets==5.0.1
+nixl==1.4.1
+speculators_commit=e3041ddb4e58d8d0fad86f938f44423bdf424ae9
+script_tree_sha256=14c9318526e87f51707995c46fc2a038d66d15e10d19ce32d414027642e770ab

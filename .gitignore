@@ -1,0 +1,13 @@
+.cache/
+artifacts/custom_eagle3/
+data/*.jsonl
+data/gsm8k_prepared/
+logs/
+runtime/
+__pycache__/
+*.pyc
+artifacts/custom_checkpoint_path.txt
+artifacts/pre_experiment_processes.txt
+artifacts/post_service_stop_gpu_processes.csv
+scripts/deadline_restore.sh
+scripts/restore_services.sh

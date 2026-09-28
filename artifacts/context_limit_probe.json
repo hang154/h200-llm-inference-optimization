@@ -1,0 +1,40 @@
+[
+  {
+    "model": "Qwen/Qwen3-8B",
+    "native_max_position_embeddings": 40960,
+    "requested_contexts": [
+      8192,
+      32768,
+      65536,
+      131072
+    ],
+    "supported_without_rope_override": [
+      8192,
+      32768
+    ],
+    "unsupported_without_rope_override": [
+      65536,
+      131072
+    ],
+    "policy": "do_not_force_unsupported_rope_scaling_in_quality-sensitive_benchmark"
+  },
+  {
+    "model": "RedHatAI/Qwen3-8B-FP8-dynamic",
+    "native_max_position_embeddings": 40960,
+    "requested_contexts": [
+      8192,
+      32768,
+      65536,
+      131072
+    ],
+    "supported_without_rope_override": [
+      8192,
+      32768
+    ],
+    "unsupported_without_rope_override": [
+      65536,
+      131072
+    ],
+    "policy": "do_not_force_unsupported_rope_scaling_in_quality-sensitive_benchmark"
+  }
+]
